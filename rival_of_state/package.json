@@ -1,0 +1,56 @@
+{
+  "name": "rival_of_state",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.79",
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "axios": "^1.4.0",
+    "core-js": "^3.8.3",
+    "flask": "^0.2.10",
+    "promised": "^0.2.2",
+    "vue": "^3.3.4",
+    "vue-loader": "^17.2.2",
+    "vue-loading-overlay": "^6.0.3",
+    "vue-promised": "^2.2.0",
+    "vue-router": "^4.2.4",
+    "vue-template-compiler": "^2.7.14",
+    "vue3-google-map": "^0.17.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/compiler-sfc": "^3.3.4",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-svg-loader": "^0.10.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
